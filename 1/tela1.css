@@ -1,7 +1,7 @@
 .container {
     width: 375px; /* largura do iPhone */
     height: 667px; /* altura do iPhone */
-    background-color: #f2f2f2; /* cor de fundo */
+    background-color:white; /* cor de fundo */
     border-radius: 40px; /* arredondamento dos cantos */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* sombra */
     margin: 0 auto; /* centralizar horizontalmente */
@@ -9,11 +9,95 @@
     position: relative; /* permitir que os elementos internos usem posição absoluta */
 }
 
-background{
-
-    color:white;
+body{
+    background-color: black;
 }
 
+
+
+
+.nomeDoPaciente{
+
+
+
+    color: var(--Greyscale-800, #000);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 30px;
+    width: 236px;
+    height: 333,5px;
+    gap: 0px;
+    margin-left: 60px;
+    margin-top: 0px;
+    opacity: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cpf{
+    color: var(--Greyscale-800, #000);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 30px;
+    width: 236px;
+    height: 333,5px;
+    gap: 0px;
+    margin-left: 60px;
+    margin-top: 0px;
+    opacity: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+
+
+}
+
+.job{
+    color: var(--Greyscale-800, #000);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 30px;
+    width: 236px;
+    height: 100.5px;
+    gap: 0px;
+    margin-left:60px;
+    margin-top: 0px;
+    opacity: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+}
+
+.Descricao{
+    color: var(--Greyscale-800, #000);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 30px;
+    width: 236px;
+    height: 333,5px;
+    gap: 0px;
+    margin-left: 60px;
+    margin-top: 0px;
+    opacity: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.data{
+    color: var(--Greyscale-800, #000);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 30px;
+    width: 236px;
+    height: 333,5px;
+    gap: 0px;
+    margin-left: 60px;
+    margin-top: 0px;
+    opacity: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
 
 header{
    
@@ -29,30 +113,14 @@ header{
     line-height: 30px;
     width: 187,5px;
     height: 333,5px;
+    margin-top: 10px;
   
    
 
 
 }
 
-img1{
-    width: 300px;
-    height: 11.089px;
 
-    fill: var(--Greyscale-800, #000);
-
-   
-
-}
-
-img2{
-
-    width: 17px;
-    height: 10.667px;
-    fill: var(--Greyscale-800, #000);
-    gap: 10px;
-
-}
 
 
 .subtitulo{
@@ -162,27 +230,6 @@ img2{
     text-align: left;
     margin-left: 60px;}
 
-textarea{
-    width: fixed (350px)px;
-    height: fixed (1000px)px;
-    gap: 8px;
-    opacity: 0px;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: var(--Greyscale-500, #8C8C8C);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-left: 60px;
-    padding: 0px 60px;
-    
-    
-
-}
 
 button{
  
