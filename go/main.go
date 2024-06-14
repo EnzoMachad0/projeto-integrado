@@ -2,10 +2,8 @@ package main
 
 import (
 	"fmt"
-
 	"math/rand"
 	"os"
-
 	"time"
 )
 
@@ -191,5 +189,26 @@ func fazLogin() {
 }
 
 func redefinirSenha() {
+	var novaSenha1 string
+	var novaSenha2 string
+	fmt.Println("Redefinindo senha...")
+	fmt.Print("Digite sua nova senha: ")
+	fmt.Scan(&novaSenha1)
+	fmt.Print("Confirme sua nova senha: ")
+	fmt.Scan(&novaSenha2)
+
+	if novaSenha1 != novaSenha2 {
+		for novaSenha1 != novaSenha2 {
+			fmt.Println("AS SENHA INSERIDAS SÃO DIFERENTES!")
+			fmt.Print("Confirme sua nova senha: ")
+			fmt.Scan(&novaSenha2)
+
+		}
+	}
+	fmt.Println()
+	fmt.Println("Sua senha foi redefinida: ", novaSenha2)
+	fmt.Println()
+
+	acsLogin[email] = novaSenha2
 
 }
